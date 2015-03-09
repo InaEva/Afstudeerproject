@@ -1,0 +1,32 @@
+command: Delta, turn dp on.
+command: Delta, what is the dp?
+command: Delta, turn dp off.
+command: Delta, turn dp auto yaw on. 
+command: Delta, what is the dp auto yaw?
+command: Delta, turn dp auto yaw off.
+Commands: Delta turn dp auto sway on.
+Commands: Delta turn dp auto surge on.
+commands: Delta what is the dp auto sway?
+Commands: Delta what is the dp auto surge?
+commands: Delta turn dp auto sway off.
+commands: Delta turn dp auto surge off.
+commands: Delta turn optimal heading on. 
+commands: Delta what is the optimal heading?
+commands: Delta turn optimal heading off.
+commands: Delta turn dp joystick yaw on.
+commands: Delta turn dp joystick sway on.
+commands: Delta turn dp joystick surge on.
+commands: Delta what is the dp joystick yaw. 
+commands: Delta what is the dp joystick surge.
+commands: delta what is the dp joystick sway.
+commands: Delta turn dp joystick yaw off.
+commands: Delta turn dp joystick surge off.
+commands: Delta turn dp joystick sway off.
+commands: Delta set lattiude
+commands: Delta what is the lattitude?
+commands: Delta set longtitude
+commands: Delta what is the longtitude?
+Commands: Delta what is the draught?
+Commands: Delta set heading sensor 
+commands: Delta what is the heading sensor?
+Command: Delta exit application.

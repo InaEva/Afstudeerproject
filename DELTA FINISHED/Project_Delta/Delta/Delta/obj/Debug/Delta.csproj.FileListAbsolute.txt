@@ -1,0 +1,7 @@
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\bin\Debug\Delta.exe
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\bin\Debug\Delta.pdb
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\obj\Debug\Delta.MainForm.resources
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\obj\Debug\Delta.exe
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\obj\Debug\Delta.pdb
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\obj\Debug\Delta.csprojResolveAssemblyReference.cache
+C:\Users\DG\Desktop\Project_Delta\Delta\Delta\obj\Debug\Delta.csproj.GenerateResource.Cache

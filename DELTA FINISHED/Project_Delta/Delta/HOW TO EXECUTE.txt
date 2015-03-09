@@ -1,0 +1,19 @@
+Go into DIR:
+
+Delta/bin/Debug/
+
+and double click Delta.exe
+
+
+You need to download and install:
+
+.NET 4.0+  (for voice recognition)
+
+Add a Reference to the project to System.Speech.dll // Available in .NET 4.0>= 
+
+
+When having trouble with speech recognition, train your computer to better
+understand you.
+
+http://www.gilsmethod.com/train-windows-7-understand-speech
+

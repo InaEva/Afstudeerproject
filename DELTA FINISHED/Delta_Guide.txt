@@ -1,0 +1,205 @@
+
+# GUIDE # 
+
+Start program, maintenance mode, hardware panel -> turn switch on.
+Start the watchioservice as well. And of course Delta.
+
+# In the program # 
+Go to the heading tab (second tab), select in the left bottom cornor the pilot tab.
+
+
+If in the center screen, top : Manual is activated you can turn DP on with:
+
+=======================================
+command: Delta, turn dp on.
+
+You can check what the dp is with:
+
+command: Delta, what is the dp?
+
+or turn it off again to go back to manual with:
+
+command: Delta, turn dp off.
+=======================================
+
+When turning dp on, the top center screen will say: off. New options will appear in the bottom left
+pilot tab.
+
+Now you can turn dp auto on by starting up some commands like: 
+
+NOTE!: You cannot turn optimal heading on if the dp auto is not activated. ensure you do the following
+steps first.
+=======================================
+command: Delta, turn dp auto yaw on.   // Turns the heading to auto
+
+You can check the dp heading with:
+
+command: Delta, what is the dp auto yaw?
+
+and you can also turn the dp auto yaw off with
+
+command: Delta, turn dp auto yaw off.
+
+======================================= 
+
+NOTE: Dp auto is not fully booted yet. You must enable dp auto sway and dp auto surge. 
+
+=======================================
+
+Commands: Delta turn dp auto sway on.
+Commands: Delta turn dp auto surge on.
+
+to check ..
+
+commands: Delta what is the dp auto sway?
+Commands: Delta what is the dp auto surge?
+
+to disable..
+
+commands: Delta turn dp auto sway off.
+commands: Delta turn dp auto surge off.
+
+=======================================
+
+Now you are fully in dp auto. You can switch the heading to optimal with:
+
+commands: Delta turn optimal heading on. 
+
+check..
+
+commands: Delta what is the optimal heading?
+
+turn off...
+
+commands: Delta turn optimal heading off. 
+
+===========================================
+
+You may switch to joystick. But remember to disable the dp auto commands. Or else they will both
+remain on at the same time. 
+
+commands: Delta turn dp joystick yaw on.  // and add delta turn dp auto yaw off.
+
+commands: Delta turn dp joystick sway on       // followed by delta turn dp auto sway off
+
+commands: Delta turn dp joystick surge on      // followed by delta turn dp auto surge off if not already
+						  automaticly disabled.
+
+IF You go back to dp auto you turn these commands around. 
+
+Like: Delta turn dp auto yaw on. Delta turn dp joystick yaw off. etc. Fully switch to ensure
+      that commands will function well and errors will dissapear?
+
+check value at any time with:
+
+commands: Delta what is the dp joystick yaw. 
+commands: Delta what is the dp joystick surge.
+commands: delta what is the dp joystick sway.
+
+Disable them with:
+
+commands: Delta turn dp joystick yaw off.
+commands: Delta turn dp joystick surge off.
+commands: Delta turn dp joystick sway off.
+
+==============================================================
+
+
+You may set lattitude and longtitude with:
+
+commands: Delta set lattiude 
+
+Delta will respond asking "Which value?"
+
+then you say the numbers, they will appear on the screen.
+
+five three dot three four one stop
+
+after saying stop it will set the variable.
+
+You can always check th var with
+
+commands: Delta what is the lattitude?
+
+
+The same applies for the longtitude
+
+commands: Delta set longtitude
+
+or to check
+
+commands: Delta what is the longtitude?
+
+
+==============================================================
+
+Check draught with:
+
+Commands: Delta what is the draught?
+
+==============================================================
+
+Set Heading sensor:
+
+Commands: Delta set heading sensor 
+
+Try a lower value like 0.10
+
+check the heading sensor with
+
+commands: Delta what is the heading sensor?
+
+
+try reset heading sensor by setting it to 0
+
+==============================================================
+
+You may exit Delta by saying
+
+Command: Delta exit application.
+
+==============================================================
+
+NOTE
+
+==============================================================
+
+All the commands have been tested and are in working condition.
+Please contact the programmer for any problems.
+
+===============================================================
+
+TOTAL COMMANDS: 31 ( 32 with exit application) 
+
+command: Delta, turn dp on.
+command: Delta, what is the dp?
+command: Delta, turn dp off.
+command: Delta, turn dp auto yaw on. 
+command: Delta, what is the dp auto yaw?
+command: Delta, turn dp auto yaw off.
+Commands: Delta turn dp auto sway on.
+Commands: Delta turn dp auto surge on.
+commands: Delta what is the dp auto sway?
+Commands: Delta what is the dp auto surge?
+commands: Delta turn dp auto sway off.
+commands: Delta turn dp auto surge off.
+commands: Delta turn optimal heading on. 
+commands: Delta what is the optimal heading?
+commands: Delta turn optimal heading off.
+commands: Delta turn dp joystick yaw on.
+commands: Delta turn dp joystick sway on.
+commands: Delta turn dp joystick surge on.
+commands: Delta what is the dp joystick yaw. 
+commands: Delta what is the dp joystick surge.
+commands: delta what is the dp joystick sway.
+commands: Delta turn dp joystick yaw off.
+commands: Delta turn dp joystick surge off.
+commands: Delta turn dp joystick sway off.
+commands: Delta set lattiude
+commands: Delta what is the lattitude?
+commands: Delta set longtitude
+commands: Delta what is the longtitude?
+Commands: Delta what is the draught?
+Commands: Delta set heading sensor 
+commands: Delta what is the heading sensor?
+Command: Delta exit application.

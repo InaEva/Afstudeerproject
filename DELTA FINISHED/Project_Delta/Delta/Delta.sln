@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delta", "Delta\Delta.csproj", "{BC703A38-590E-4D8E-B6C7-C49FCD5814F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC703A38-590E-4D8E-B6C7-C49FCD5814F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC703A38-590E-4D8E-B6C7-C49FCD5814F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC703A38-590E-4D8E-B6C7-C49FCD5814F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC703A38-590E-4D8E-B6C7-C49FCD5814F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
